@@ -1,0 +1,12 @@
+{
+  "title": "GoMed Blog",
+  "siteUrl": "https://blog.gomed.ng",
+  "navigation": [
+    {
+      "type": "link",
+      "link": "https://gomed.ng/contact-info/?page=1",
+      "title": "Contact us"
+    }
+  ],
+  "navtype": "normal"
+}
