@@ -42,10 +42,9 @@ const StyledCard = styled(Card)`
 
 
 const PostLink = ({ post }) => {
-  const primaryColor = theme.colors[post.frontmatter.primaryColor] || theme.colors.light;
   return (
     <Link to={post.frontmatter.slug}>
-      <StyledCard bgColor={primaryColor}>
+      <StyledCard>
       <CardActionArea>
           {post.frontmatter.thumbnail && (
             <CardMedia

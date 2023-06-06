@@ -91,7 +91,7 @@ export default function Template({
             bgcolor="brand" imagealign="none"
             content={(
               <ArticleImg>
-                <GatsbyImage image={frontmatter.thumbnail.childImageSharp.gatsbyImageData} />
+                <GatsbyImage image={frontmatter.thumbnail.childImageSharp.gatsbyImageData} alt="" />
               </ArticleImg>
             )}
           />

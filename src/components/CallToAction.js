@@ -12,11 +12,11 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   padding: 0.5em 2.5em;
-  background-color: ${props => props.bgColor};
-  color:${props => getContrast(props.theme.colors.darkest, props.bgColor) > 10 ? props.theme.colors.darkest : props.theme.colors.lightest };
-  border: 1px solid ${props => shade(0.2, props.bgColor)};
+  background-color: ${props => props.bgcolor};
+  color:${props => getContrast(props.theme.colors.darkest, props.bgcolor) > 10 ? props.theme.colors.darkest : props.theme.colors.lightest };
+  border: 1px solid ${props => shade(0.2, props.bgcolor)};
   &:hover {
-    background-color: ${props => lighten(0.03, props.bgColor)}
+    background-color: ${props => lighten(0.03, props.bgcolor)}
   }
   width: ${props => props.align === 'full-width' ? '100%' : 'auto'};
   margin: 5px 0 5px 0;
@@ -24,12 +24,13 @@ const StyledLink = styled(Link)`
   box-sizing:border-box;
 `
 
+
 const CallToAction = ({ url, children, align, bgColor, ...other }) => {
   
   const bg = theme.colors[bgColor] || theme.colors.dark;
 
   const link = (
-    <StyledLink to={url} align={align} bgColor={bg}>
+    <StyledLink to={url} align={align} bgcolor={bg} >
       {children}
     </StyledLink>
   )
