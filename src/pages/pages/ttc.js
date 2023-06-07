@@ -14,7 +14,7 @@ export default function Home() {
       <Seo 
         lang="en"
         description="GoMed - get all your meds on the go"
-        title="GoMed Blog"
+        title="Key supplements - trying to conceive"
       />
       <h1>Making Your Dreams of Motherhood Come True</h1>
 

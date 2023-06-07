@@ -14,7 +14,7 @@ export default function Home() {
       <Seo 
         lang="en"
         description="GoMed - get all your meds on the go"
-        title="GoMed Blog"
+        title="Quick, safe and wide product range"
       />
       <HeroBlock 
         bgcolor="brand" 

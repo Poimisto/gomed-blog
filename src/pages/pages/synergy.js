@@ -14,7 +14,7 @@ export default function Home() {
       <Seo 
         lang="en"
         description="GoMed - get all your meds on the go"
-        title="GoMed Blog"
+        title="Boosting confidence - Synergy Coffee"
       />
       <h1>Men are Transforming Their Love Life with This Special Coffee Blend</h1>
 
