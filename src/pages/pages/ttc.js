@@ -77,8 +77,8 @@ export default function Home() {
             </p>
             <p><a href="/preparing-for-pregnancy-guide">Read our comprehensive Guide to Preparing for Pregnancy</a></p>
 
-            <CallToAction bgColor="brand" url="https://gomed.ng/Speak-a-pharmacist/" align="full-width">Consult a doctor</CallToAction>
-            <CallToAction bgColor="brand" url="https://gomed.ng/consult-a-doctor/?page=1" align="full-width">Speak with a Pharmacist</CallToAction>
+            <CallToAction bgColor="brand" url="https://gomed.ng/consult-a-doctor/" align="full-width">Consult a doctor</CallToAction>
+            <CallToAction bgColor="brand" url="https://gomed.ng/Speak-a-pharmacist/" align="full-width">Speak with a Pharmacist</CallToAction>
           </>
         )}        
       />
