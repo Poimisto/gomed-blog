@@ -108,8 +108,8 @@ export default function Home() {
 
             <p><a href="/demystifying-male-sexual-health">Read more: Demystifying Male Sexual Health - More Than Just a Physical Aspect</a></p>
 
-            <CallToAction bgColor="brand" url="https://gomed.ng/Speak-a-pharmacist/" align="full-width">Consult a doctor</CallToAction>
-            <CallToAction bgColor="brand" url="https://gomed.ng/consult-a-doctor/?page=1" align="full-width">Speak with a Pharmacist</CallToAction>
+            <CallToAction bgColor="brand" url="https://gomed.ng/consult-a-doctor/" align="full-width">Consult a doctor</CallToAction>
+            <CallToAction bgColor="brand" url="https://gomed.ng/Speak-a-pharmacist/" align="full-width">Speak with a Pharmacist</CallToAction>
           </>
         )}        
       />
