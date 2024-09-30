@@ -11,6 +11,7 @@
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^4.14.1",
     "gatsby-plugin-catch-links": "^4.14.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-google-tagmanager": "^4.14.0",
     "gatsby-plugin-image": "^2.14.1",
     "gatsby-plugin-manifest": "^4.14.0",
