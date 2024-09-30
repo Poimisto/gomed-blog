@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: require('./content/settings.json'),
   plugins: [
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -13,6 +14,7 @@ module.exports = {
         icon: `src/images/gomed-icon.png`, // This path is relative to the root of the site.
       },
     },
+
     {
       resolve: `gatsby-plugin-material-ui`,
       options: {
@@ -21,6 +23,7 @@ module.exports = {
         },
       },
     },
+    
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
