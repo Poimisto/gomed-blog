@@ -13,6 +13,8 @@ disabled: false
 
 Empowering You to Take Control of Your Health: MASSIVE SUPPORT FOR PEOPLE LIVING WITH DIABETES & HYPERTENSION!
 
+GoMed Diabetes/Hypertension Initiative: **[Register NOW](https://form.jotform.com/242522833572355)**
+
 ## You're not alone in this fight!
 
 Are you tired of feeling overwhelmed by the daily challenges of living with diabetes and hypertension? Do you wish you had a trusted ally to help you navigate the complexities of managing your condition?
